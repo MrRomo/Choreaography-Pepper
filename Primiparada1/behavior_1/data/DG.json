@@ -1,0 +1,294 @@
+{
+    "meta": {
+        "_messageId": "8473adee-8963-45bb-bbd9-8e07a65178c2",
+        "_version": "1.0",
+        "_requestDate": "2019-03-28T10:25:31.599Z",
+        "_responseSize": 5,
+        "_clientRequest": "692c0abf-e22d-4368-832e-d8d64fae41c8"
+    },
+    "data": [
+        {
+            "header": {
+                "type": "Service-points",
+                "id": "Branch-245-2019-03-28T10:25:31.599Z"
+            },
+            "channelType": "Branch",
+            "internalCode": "245",
+            "channelName": "PUERTA DEL RIO",
+            "address": "CARRERA 48 N° 26 - 85",
+            "phoneNumber": "4489048",
+            "latitude": 6.228861,
+            "longitude": -75.575112,
+            "active": true,
+            "hasQflow": false,
+            "distance": "A 155,10 metros",
+            "isOpen": true,
+            "closeIn": "Cierra en: 07 horas 34 minutos",
+            "secondsToClose": 27268,
+            "schedules": [
+                {
+                    "day": "Lunes",
+                    "schedules": "08:30 - 18:00"
+                },
+                {
+                    "day": "Martes",
+                    "schedules": "08:30 - 18:00"
+                },
+                {
+                    "day": "Miércoles",
+                    "schedules": "08:30 - 18:00"
+                },
+                {
+                    "day": "Jueves",
+                    "schedules": "08:30 - 18:00"
+                },
+                {
+                    "day": "Viernes",
+                    "schedules": "08:30 - 18:00"
+                },
+                {
+                    "day": "Sábado Extendido",
+                    "schedules": " / 09:00 - 13:00"
+                }
+            ],
+            "showPhoneNumber": true,
+            "showShedules": true,
+            "showServices": true,
+            "showCloseIn": true,
+            "services": [
+                {
+                    "idService": 1,
+                    "serviceName": "Divisas"
+                },
+                {
+                    "idService": 2,
+                    "serviceName": "Fila preferencial"
+                }
+            ],
+            "servicesQflow": []
+        },
+        {
+            "header": {
+                "type": "Service-points",
+                "id": "Branch-511-2019-03-28T10:25:31.599Z"
+            },
+            "channelType": "Branch",
+            "internalCode": "511",
+            "channelName": "PUNTO CLAVE",
+            "address": "CALLE 27 N° 46 - 70",
+            "phoneNumber": "4449354",
+            "latitude": 6.229514,
+            "longitude": -75.574217,
+            "active": true,
+            "hasQflow": false,
+            "distance": "A 258,71 metros",
+            "isOpen": true,
+            "closeIn": "Cierra en: 06 horas 04 minutos",
+            "secondsToClose": 21868,
+            "schedules": [
+                {
+                    "day": "Lunes",
+                    "schedules": "09:00 - 16:30"
+                },
+                {
+                    "day": "Martes",
+                    "schedules": "09:00 - 16:30"
+                },
+                {
+                    "day": "Miércoles",
+                    "schedules": "09:00 - 16:30"
+                },
+                {
+                    "day": "Jueves",
+                    "schedules": "09:00 - 16:30"
+                },
+                {
+                    "day": "Viernes",
+                    "schedules": "09:00 - 17:00"
+                }
+            ],
+            "showPhoneNumber": true,
+            "showShedules": true,
+            "showServices": true,
+            "showCloseIn": true,
+            "services": [
+                {
+                    "idService": 2,
+                    "serviceName": "Fila preferencial"
+                }
+            ],
+            "servicesQflow": []
+        },
+        {
+            "header": {
+                "type": "Service-points",
+                "id": "Branch-25-2019-03-28T10:25:31.599Z"
+            },
+            "channelType": "Branch",
+            "internalCode": "25",
+            "channelName": "COMERCIO INTERNACIONAL MEDELLIN",
+            "address": "CARRERA 48 N° 26 - 85",
+            "phoneNumber": "2 51 81 88",
+            "latitude": 6.229993,
+            "longitude": -75.575178,
+            "active": true,
+            "hasQflow": false,
+            "distance": "A 279,25 metros",
+            "isOpen": true,
+            "closeIn": "Cierra en: 05 horas 34 minutos",
+            "secondsToClose": 20068,
+            "schedules": [
+                {
+                    "day": "Lunes",
+                    "schedules": "09:00 - 16:00"
+                },
+                {
+                    "day": "Martes",
+                    "schedules": "09:00 - 16:00"
+                },
+                {
+                    "day": "Miércoles",
+                    "schedules": "09:00 - 16:00"
+                },
+                {
+                    "day": "Jueves",
+                    "schedules": "09:00 - 16:00"
+                },
+                {
+                    "day": "Viernes",
+                    "schedules": "09:00 - 16:30"
+                }
+            ],
+            "showPhoneNumber": true,
+            "showShedules": true,
+            "showServices": true,
+            "showCloseIn": true,
+            "services": [
+                {
+                    "idService": 1,
+                    "serviceName": "Divisas"
+                }
+            ],
+            "servicesQflow": []
+        },
+        {
+            "header": {
+                "type": "Service-points",
+                "id": "Branch-255-2019-03-28T10:25:31.599Z"
+            },
+            "channelType": "Branch",
+            "internalCode": "255",
+            "channelName": "PREMIUM PLAZA",
+            "address": "CARRERA 43A N° 29 - 205",
+            "phoneNumber": "4446992",
+            "latitude": 6.229989,
+            "longitude": -75.570296,
+            "active": true,
+            "hasQflow": false,
+            "distance": "A 626,33 metros",
+            "isOpen": true,
+            "closeIn": "Cierra en: 08 horas 34 minutos",
+            "secondsToClose": 30868,
+            "schedules": [
+                {
+                    "day": "Lunes",
+                    "schedules": "09:00 - 16:30 / 16:30 - 19:00"
+                },
+                {
+                    "day": "Martes",
+                    "schedules": "09:00 - 16:30 / 16:30 - 19:00"
+                },
+                {
+                    "day": "Miércoles",
+                    "schedules": "09:00 - 16:30 / 16:30 - 19:00"
+                },
+                {
+                    "day": "Jueves",
+                    "schedules": "09:00 - 16:30 / 16:30 - 19:00"
+                },
+                {
+                    "day": "Viernes",
+                    "schedules": "09:00 - 17:00 / 17:00 - 19:00"
+                },
+                {
+                    "day": "Sábado Extendido",
+                    "schedules": " / 09:00 - 13:00"
+                }
+            ],
+            "showPhoneNumber": true,
+            "showShedules": true,
+            "showServices": true,
+            "showCloseIn": true,
+            "services": [
+                {
+                    "idService": 2,
+                    "serviceName": "Fila preferencial"
+                }
+            ],
+            "servicesQflow": []
+        },
+        {
+            "header": {
+                "type": "Service-points",
+                "id": "Branch-21-2019-03-28T10:25:31.599Z"
+            },
+            "channelType": "Branch",
+            "internalCode": "21",
+            "channelName": "ALMACENTRO",
+            "address": "CARRERA 43A N° 34 - 45",
+            "phoneNumber": "4446952",
+            "latitude": 6.234693,
+            "longitude": -75.570453,
+            "active": true,
+            "hasQflow": false,
+            "distance": "A 968,62 metros",
+            "isOpen": true,
+            "closeIn": "Cierra en: 06 horas 04 minutos",
+            "secondsToClose": 21868,
+            "schedules": [
+                {
+                    "day": "Lunes",
+                    "schedules": "08:00 - 16:30"
+                },
+                {
+                    "day": "Martes",
+                    "schedules": "08:00 - 16:30"
+                },
+                {
+                    "day": "Miércoles",
+                    "schedules": "08:00 - 16:30"
+                },
+                {
+                    "day": "Jueves",
+                    "schedules": "08:00 - 16:30"
+                },
+                {
+                    "day": "Viernes",
+                    "schedules": "08:00 - 17:00"
+                }
+            ],
+            "showPhoneNumber": true,
+            "showShedules": true,
+            "showServices": true,
+            "showCloseIn": true,
+            "services": [
+                {
+                    "idService": 1,
+                    "serviceName": "Divisas"
+                },
+                {
+                    "idService": 3,
+                    "serviceName": "Fila empresarial"
+                },
+                {
+                    "idService": 2,
+                    "serviceName": "Fila preferencial"
+                }
+            ],
+            "servicesQflow": []
+        }
+    ],
+    "links": {
+        "self": "https://sbapi.bancolombia.com/bancolombiabluemix-dev/sandbox/v1/sales-service/cross-channel/service-points/branches?latitude=6.227491&longitude=-75.575369&searchRadius=1"
+    }
+}

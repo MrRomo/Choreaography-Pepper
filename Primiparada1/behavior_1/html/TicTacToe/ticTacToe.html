@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<head>
+	<meta http-equiv="Content-Type" charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+	<script src="qi.js" onerror="alert('No hay qi')"></script>
+	<script type="text/javascript" src="main.js"></script>
+</head>
+
+<body>
+	<div id="mask">
+		<h1 class="title main"> Triqui </h1>
+		<div class="table" id="board">
+			<!-- main field with cells -->
+			<div class="field" id="0">&nbsp</div>
+			<div class="field" id="1">&nbsp</div>
+			<div class="field" id="2">&nbsp</div>
+			<div class="field" id="3">&nbsp</div>
+			<div class="field" id="4">&nbsp</div>
+			<div class="field" id="5">&nbsp</div>
+			<div class="field" id="6">&nbsp</div>
+			<div class="field" id="7">&nbsp</div>
+			<div class="field" id="8">&nbsp</div>
+		</div>
+		<div class="table">
+			<!-- score field -->
+			<div class="scores" id="player_score"> </div>
+			<div class="scores" id="computer_score"> </div>
+		</div>
+
+		<div id="win" style="display:none;">
+			<!-- alert window -->
+			<div class="overlay"></div>
+			<div class="visible">
+				<h2 class="title"> Resultado </h2>
+				<div class="content">
+					<p id="content"></p>
+				</div>
+				<button type="submit" class="button restart" onClick="restart();">
+					<span> Otra vez </span> </button>
+				<button type="submit" class="button exit" onClick="gameOver()">
+					<span> Salir </span> </button>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

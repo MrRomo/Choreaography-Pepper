@@ -1,0 +1,61 @@
+#!/bin/bash
+
+if [ "$1" = "-h" ] || [ "$1" = "--help" ]; then
+	echo "Arguments:"
+	echo "  -i, --ip=IP	IP = Robot IP"
+	echo "  -p, --pass=PASSWORD	PASSWORD = Robot password"
+	echo "  -c, --clear	If you just want to clear the pages currently installed on the robot."
+	exit
+fi
+
+for i in "$@"; do
+	case $i in
+		-i=*|--ip=*)
+		ROBOT_IP="${i#*=}"
+		shift
+		;;
+		-p=*|--pass=*)
+		ROBOT_PASS="${i#*=}"
+		shift
+		;;
+		-c|--clear)
+		CLEAR_FLAG="Yes"
+		shift
+		;;
+	esac
+done
+
+CREATION_FLAG="None"
+DELETION_FLAG="None"
+
+cd html
+
+if [ -z ${CLEAR_FLAG} ]; then
+	for DIRECTORY in *; do
+		if sshpass -p ${ROBOT_PASS} ssh nao@${ROBOT_IP} "[ ! -d /home/nao/.local/share/PackageManager/apps/${DIRECTORY} ]"; then
+			printf "\033[0;33mCreating ${DIRECTORY}... \033[0m\n"
+			sshpass -p ${ROBOT_PASS} ssh nao@${ROBOT_IP} "cd .local/share/PackageManager/apps && mkdir ${DIRECTORY} ${DIRECTORY}/html"
+			CREATION_FLAG="Some"
+		fi
+	done
+		if [ ${CREATION_FLAG} = "Some" ]; then
+			printf "\033[0;32mDone ! \033[0m\n"
+		fi
+
+	for DIRECTORY in *; do
+		printf "\033[0;33mSending files in ${DIRECTORY}... \033[0m\n"
+		sshpass -p ${ROBOT_PASS} scp -r ${DIRECTORY}/. nao@${ROBOT_IP}:/home/nao/.local/share/PackageManager/apps/${DIRECTORY}/html
+	done
+		printf "\033[0;32mDone ! \033[0m\n"
+else
+	for DIRECTORY in *; do
+		if sshpass -p ${ROBOT_PASS} ssh nao@${ROBOT_IP} "[ -d /home/nao/.local/share/PackageManager/apps/${DIRECTORY} ]"; then
+			printf "\033[0;33mDeleting ${DIRECTORY}... \033[0m\n"
+			sshpass -p ${ROBOT_PASS} ssh nao@${ROBOT_IP} "rm -r /home/nao/.local/share/PackageManager/apps/${DIRECTORY}"
+			DELETION_FLAG="Some"
+		fi
+	done
+		if [ ${DELETION_FLAG} = "Some" ]; then
+			printf "\033[0;32mDone ! \033[0m\n"
+		fi
+fi

@@ -1,0 +1,26 @@
+{
+ "kind": "youtube#videoListResponse",
+ "etag": "\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/tcbkc0rLrMHSi29AORDlLNVIl2A\"",
+ "nextPageToken": "CAUQAA",
+ "pageInfo": {
+  "totalResults": 200,
+  "resultsPerPage": 5
+ },
+ "items": [
+  {
+   "kind": "youtube#video",
+   "etag": "\"Bdx4f4ps3xCOOo1WZ91nTLkRZ_c/Ru_OfruDFfTn3Nye62_r40r8oxM\"",
+   "id": "wuvlEJxI9wM"
+  },
+  {
+   "kind": "youtube#video",
+   "etag": "\"Bdx4f4ps3xCOOo1WZ91nTLkRZ_c/m5Dpi_fMAlRY8oUSYjyR82j_w3g\"",
+   "id": "GRN04IzNaGg"
+  },
+  {
+   "kind": "youtube#video",
+   "etag": "\"Bdx4f4ps3xCOOo1WZ91nTLkRZ_c/hCHCuI7lAQebSec4pEzGuAHOwa8\"",
+   "id": "sUoUQmf5ZME"
+  }
+ ]
+}

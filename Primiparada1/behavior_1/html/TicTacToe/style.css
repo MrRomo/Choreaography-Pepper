@@ -1,0 +1,146 @@
+	html, body {
+		margin: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+	#mask {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url(images/background.jpg) no-repeat center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+    }
+
+	.title {
+		text-align: center;
+		font-family: Nunito;
+		font-weight: bold;
+		color: rgb(0, 68, 140);
+	}
+	
+	.main {
+		font-size: 3em;
+		margin-top: 0;
+		padding-top: 4%;
+	}
+
+	.table {
+		width: 372px;
+		padding: 1px;
+		padding-bottom: 2px;
+		border: 1px solid #E1ECF9;
+		font-size: 0;
+		margin: 0 auto;
+		position: relative;
+		background: #ffffff;
+	}
+		
+	.field {
+		width: 120px;
+		height: 120px;
+		display: inline-block;
+		cursor: pointer;
+		border: 1px solid #E1ECF9;
+		margin: 1px;
+		text-align: center;
+		font: 65px/2 Arial, Helvetica, sans-serif;
+		color: rgba(0, 0, 0, 0);
+		-webkit-user-select: none;
+	}
+	
+	.field:hover {
+		background: rgba(0, 0, 0, 0.1);
+	}
+	
+	.scores {
+		width: 186px;
+		height: 25px;
+		text-align: center;
+		position: relative;
+		display: inline-block;
+		padding-left: 0%;
+		padding-right: 0%;
+		color: rgb(0, 68, 140);
+		border: 0px solid #E1ECF9;
+		font: bold 16px/1.7 Arial, Helvetica, sans-serif;
+		-webkit-user-select: none;
+	}
+	
+	.button {
+    	width: 130px;
+    	background-color: #4CAF50; 
+        border: none;
+        padding: 5px 0px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 7px 7px;
+        font-size: 13px;
+        -webkit-transition-duration: 0.4s; 
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+    
+    .restart {
+        background-color: #46a049; 
+        color: #dcefdc; 
+    }
+
+    .restart:hover {
+        background-color: #5fb962;
+        color: white;
+        border: 0px solid #4CAF50;
+    }
+
+    .exit {
+        background-color: #f21c0d; 
+        color: #fcd2cf;
+        float: right;
+    }
+
+    .exit:hover {
+        background-color: #f44336;
+        color: white;
+        border: 0px solid #f44336;
+    }
+
+	.overlay {
+		background: #000;
+		position: fixed;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		z-index: 1000;
+		opacity: 0.75;
+	}
+
+	.visible {
+		position: fixed;
+		width: 450px;
+		padding: 0px;
+		background: white;
+		left: 50%;
+		top: 50%;
+		margin-top: -250px;
+		margin-left: -225px;
+		overflow: hidden;
+		z-index: 2000;
+	}
+
+	.content {
+		padding: 0 0px;
+		border-top: 1px solid #ccc;
+		border-bottom: 1px solid #ccc;
+		background: WhiteSmoke;
+		text-align: center;
+		color: #4CAF50;
+		font: 25px Arial, Helvetica, sans-serif;
+		-webkit-user-select: none;
+	}    

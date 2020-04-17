@@ -1,0 +1,282 @@
+{
+    "meta": {
+        "_messageId": "649a0ae3-7dc7-45aa-9153-b4db7fdfc165",
+        "_version": "1.0",
+        "_requestDate": "2019-03-28T10:45:59.468Z",
+        "_responseSize": 5,
+        "_clientRequest": "692c0abf-e22d-4368-832e-d8d64fae41c8"
+    },
+    "data": [
+        {
+            "header": {
+                "type": "Service-points",
+                "id": "Branch-494-2019-03-28T10:45:59.468Z"
+            },
+            "channelType": "Branch",
+            "internalCode": "494",
+            "channelName": "CENTRO DE PAGOS SAN MARTIN",
+            "address": "CARRERA 7 N° 31 - 42",
+            "phoneNumber": "2880757",
+            "latitude": 4.617952,
+            "longitude": -74.068283,
+            "active": true,
+            "hasQflow": false,
+            "distance": "A 23,41 metros",
+            "isOpen": true,
+            "closeIn": "Cierra en: 05 horas 14 minutos",
+            "secondsToClose": 18840,
+            "schedules": [
+                {
+                    "day": "Lunes",
+                    "schedules": "09:00 - 16:00"
+                },
+                {
+                    "day": "Martes",
+                    "schedules": "09:00 - 16:00"
+                },
+                {
+                    "day": "Miércoles",
+                    "schedules": "09:00 - 16:00"
+                },
+                {
+                    "day": "Jueves",
+                    "schedules": "09:00 - 16:00"
+                },
+                {
+                    "day": "Viernes",
+                    "schedules": "09:00 - 16:00"
+                }
+            ],
+            "showPhoneNumber": true,
+            "showShedules": true,
+            "showServices": true,
+            "showCloseIn": true,
+            "services": [
+                {
+                    "idService": 3,
+                    "serviceName": "Fila empresarial"
+                }
+            ],
+            "servicesQflow": []
+        },
+        {
+            "header": {
+                "type": "Service-points",
+                "id": "Branch-31-2019-03-28T10:45:59.468Z"
+            },
+            "channelType": "Branch",
+            "internalCode": "31",
+            "channelName": "CENTRO INTERNACIONAL",
+            "address": "CARRERA 7  N° 30A - 28",
+            "phoneNumber": "3365671",
+            "latitude": 4.617368,
+            "longitude": -74.068495,
+            "active": true,
+            "hasQflow": false,
+            "distance": "A 85,88 metros",
+            "isOpen": true,
+            "closeIn": "Cierra en: 05 horas 14 minutos",
+            "secondsToClose": 18840,
+            "schedules": [
+                {
+                    "day": "Lunes",
+                    "schedules": "09:00 - 16:00"
+                },
+                {
+                    "day": "Martes",
+                    "schedules": "09:00 - 16:00"
+                },
+                {
+                    "day": "Miércoles",
+                    "schedules": "09:00 - 16:00"
+                },
+                {
+                    "day": "Jueves",
+                    "schedules": "09:00 - 16:00"
+                },
+                {
+                    "day": "Viernes",
+                    "schedules": "09:00 - 16:00"
+                }
+            ],
+            "showPhoneNumber": true,
+            "showShedules": true,
+            "showServices": true,
+            "showCloseIn": true,
+            "services": [
+                {
+                    "idService": 1,
+                    "serviceName": "Divisas"
+                },
+                {
+                    "idService": 3,
+                    "serviceName": "Fila empresarial"
+                },
+                {
+                    "idService": 2,
+                    "serviceName": "Fila preferencial"
+                }
+            ],
+            "servicesQflow": []
+        },
+        {
+            "header": {
+                "type": "Service-points",
+                "id": "Branch-55-2019-03-28T10:45:59.468Z"
+            },
+            "channelType": "Branch",
+            "internalCode": "55",
+            "channelName": "COMERCIO INTERNACIONAL BOGOTA",
+            "address": "CALLE 30A N° 6 - 38",
+            "phoneNumber": "2326520",
+            "latitude": 4.617058,
+            "longitude": -74.068513,
+            "active": true,
+            "hasQflow": false,
+            "distance": "A 117,37 metros",
+            "isOpen": true,
+            "closeIn": "Cierra en: 05 horas 14 minutos",
+            "secondsToClose": 18840,
+            "schedules": [
+                {
+                    "day": "Lunes",
+                    "schedules": "09:00 - 16:00"
+                },
+                {
+                    "day": "Martes",
+                    "schedules": "09:00 - 16:00"
+                },
+                {
+                    "day": "Miércoles",
+                    "schedules": "09:00 - 16:00"
+                },
+                {
+                    "day": "Jueves",
+                    "schedules": "09:00 - 16:00"
+                },
+                {
+                    "day": "Viernes",
+                    "schedules": "09:00 - 16:00"
+                }
+            ],
+            "showPhoneNumber": true,
+            "showShedules": true,
+            "showServices": true,
+            "showCloseIn": true,
+            "services": [
+                {
+                    "idService": 1,
+                    "serviceName": "Divisas"
+                }
+            ],
+            "servicesQflow": []
+        },
+        {
+            "header": {
+                "type": "Service-points",
+                "id": "Branch-690-2019-03-28T10:45:59.468Z"
+            },
+            "channelType": "Branch",
+            "internalCode": "690",
+            "channelName": "HOTEL TEQUENDAMA",
+            "address": "CARRERA 10 N° 27 - 17",
+            "phoneNumber": "2823377",
+            "latitude": 4.61379,
+            "longitude": -74.069624,
+            "active": true,
+            "hasQflow": false,
+            "distance": "A 501,01 metros",
+            "isOpen": true,
+            "closeIn": "Cierra en: 05 horas 14 minutos",
+            "secondsToClose": 18840,
+            "schedules": [
+                {
+                    "day": "Lunes",
+                    "schedules": "09:00 - 16:00"
+                },
+                {
+                    "day": "Martes",
+                    "schedules": "09:00 - 16:00"
+                },
+                {
+                    "day": "Miércoles",
+                    "schedules": "09:00 - 16:00"
+                },
+                {
+                    "day": "Jueves",
+                    "schedules": "09:00 - 16:00"
+                },
+                {
+                    "day": "Viernes",
+                    "schedules": "09:00 - 16:00"
+                }
+            ],
+            "showPhoneNumber": true,
+            "showShedules": true,
+            "showServices": true,
+            "showCloseIn": true,
+            "services": [
+                {
+                    "idService": 2,
+                    "serviceName": "Fila preferencial"
+                }
+            ],
+            "servicesQflow": []
+        },
+        {
+            "header": {
+                "type": "Service-points",
+                "id": "Branch-39-2019-03-28T10:45:59.468Z"
+            },
+            "channelType": "Branch",
+            "internalCode": "39",
+            "channelName": "ECOPETROL",
+            "address": "CARRERA 13 N° 35 - 39",
+            "phoneNumber": "7462091",
+            "latitude": 4.623885,
+            "longitude": -74.067811,
+            "active": true,
+            "hasQflow": false,
+            "distance": "A 653,20 metros",
+            "isOpen": true,
+            "closeIn": "Cierra en: 05 horas 14 minutos",
+            "secondsToClose": 18840,
+            "schedules": [
+                {
+                    "day": "Lunes",
+                    "schedules": "09:00 - 16:00"
+                },
+                {
+                    "day": "Martes",
+                    "schedules": "09:00 - 16:00"
+                },
+                {
+                    "day": "Miércoles",
+                    "schedules": "09:00 - 16:00"
+                },
+                {
+                    "day": "Jueves",
+                    "schedules": "09:00 - 16:00"
+                },
+                {
+                    "day": "Viernes",
+                    "schedules": "09:00 - 16:00"
+                }
+            ],
+            "showPhoneNumber": true,
+            "showShedules": true,
+            "showServices": true,
+            "showCloseIn": true,
+            "services": [
+                {
+                    "idService": 1,
+                    "serviceName": "Divisas"
+                }
+            ],
+            "servicesQflow": []
+        }
+    ],
+    "links": {
+        "self": "https://sbapi.bancolombia.com/bancolombiabluemix-dev/sandbox/v1/sales-service/cross-channel/service-points/branches?latitude=4.618022&longitude=-74.068084&searchRadius=1"
+    }
+}

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package version="0.1.0" uuid="primiparada1-acfeee">
+ <names>
+  <name lang="en_US">Primiparada</name>
+  <name lang="es_ES">Primiparada</name>
+ </names>
+ <supportedLanguages>
+  <language>en_US</language>
+  <language>es_ES</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+  <language>es_ES</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="behavior_1">
+   <userRequestable/>
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+ <requirements>
+  <naoqiRequirement/>
+  <robotRequirement/>
+ </requirements>
+</package>
