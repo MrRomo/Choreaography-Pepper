@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="tablet" version="0.0.0">
+ <names>
+  <name lang="en_US">tablet</name>
+  <name lang="es_ES">tablet</name>
+ </names>
+ <supportedLanguages>
+  <language>en_US</language>
+  <language>es_ES</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+  <language>es_ES</language>
+ </descriptionLanguages>
+ <contents/>
+</package>
