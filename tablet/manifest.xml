@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<package uuid="tablet" version="0.0.0">
+<package uuid="grado" version="0.0.0">
  <names>
-  <name lang="en_US">tablet</name>
+  <name lang="en_US">grado</name>
   <name lang="es_ES">tablet</name>
  </names>
  <supportedLanguages>

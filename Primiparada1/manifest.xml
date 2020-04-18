@@ -1,15 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<package version="0.1.0" uuid="primiparada1-acfeee">
+<package uuid="grados" version="0.1.0">
  <names>
   <name lang="en_US">Primiparada</name>
-  <name lang="es_ES">Primiparada</name>
+  <name lang="es_ES">grados</name>
  </names>
  <supportedLanguages>
-  <language>en_US</language>
   <language>es_ES</language>
  </supportedLanguages>
  <descriptionLanguages>
-  <language>en_US</language>
   <language>es_ES</language>
  </descriptionLanguages>
  <contents>

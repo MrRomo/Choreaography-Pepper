@@ -57,10 +57,26 @@
         <File name="qi" src="behavior_1/html/YouTube/qi.js" />
         <File name="youTube" src="behavior_1/html/YouTube/youTube.html" />
         <File name="preguntas_siembra" src="behavior_1/data/preguntas_siembra.txt" />
+        <File name="angelica" src="behavior_1/html/grado/img/angelica.jpg" />
+        <File name="double-tail-spin" src="behavior_1/html/grado/img/double-tail-spin.svg" />
+        <File name="erick" src="behavior_1/html/grado/img/erick.jpg" />
+        <File name="fabio" src="behavior_1/html/grado/img/fabio.jpg" />
+        <File name="francisco" src="behavior_1/html/grado/img/francisco.jpg" />
+        <File name="gisella" src="behavior_1/html/grado/img/gisella.jpg" />
+        <File name="isaura" src="behavior_1/html/grado/img/isaura.jpg" />
+        <File name="jose" src="behavior_1/html/grado/img/jose.jpg" />
+        <File name="josemar" src="behavior_1/html/grado/img/josemar.jpg" />
+        <File name="kevin" src="behavior_1/html/grado/img/kevin.jpg" />
+        <File name="maria" src="behavior_1/html/grado/img/maria.jpg" />
+        <File name="mayra" src="behavior_1/html/grado/img/mayra.jpg" />
+        <File name="neddy" src="behavior_1/html/grado/img/neddy.jpg" />
+        <File name="ricardo" src="behavior_1/html/grado/img/ricardo.jpg" />
+        <File name="index" src="behavior_1/html/grado/index.html" />
+        <File name="jssor.slider-28.0.0.min" src="behavior_1/html/grado/js/jssor.slider-28.0.0.min.js" />
     </Resources>
     <Topics />
     <IgnoredPaths />
-    <Translations auto-fill="en_US">
+    <Translations auto-fill="es_ES">
         <Translation name="translation_en_US" src="translations/translation_en_US.ts" language="en_US" />
         <Translation name="translation_es_ES" src="translations/translation_es_ES.ts" language="es_ES" />
     </Translations>
